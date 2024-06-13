@@ -11,8 +11,14 @@
 
 .menu {
     display: flex;
+    align-content: center;
+    width: 30vw;
+    height: 3vh;
+    padding: 5px;
     gap: 2rem;
-    margin: 2rem;
+    margin: 2px;
+    color: rgb(225, 225, 225);
+    background-color: black;
 }
 
 .container-ppal {
@@ -37,5 +43,31 @@
 
 input {
     width: 5rem;
+}
+
+.container-pw {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    align-items: center;
+    gap: 2rem;
+    border: solid 2px black;
+
+}
+
+.containerNumber {
+    display: flex;
+    width: 50vw;
+    align-content: center;
+    justify-content: center;
+    /* background-color: blue; */
+    gap: 1rem;
+}
+
+.btnin {
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 600;
 }
 
